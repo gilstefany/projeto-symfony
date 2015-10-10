@@ -16,7 +16,7 @@
 
     <target name="phpcs"
             description="Generate checkstyle.xml using PHP_CodeSniffer">
-        <exec executable="C:\Users\rafaelov\Documents\projeto-symfony\vendor\squizlabs\php_codesniffer\scripts\phpcs.bat"
+        <exec executable="C:\Users\107923010\Documents\projeto-symfony\vendor\squizlabs\php_codesniffer\scripts\phpcs.bat"
               output="${basedir}/build/logs/checkstyle.xml">
             <arg value="--report=checkstyle"/>
             <arg value="--standard=${basedir}/phpcs.xml"/>
